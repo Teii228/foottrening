@@ -1,0 +1,101 @@
+.header {
+    background-color: darkgray;
+    color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: darkgray;
+    color: lightgray;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.header:hover {
+    font-size: smaller;
+    color: green;
+}
+
+.nacken:hover {
+    font-size: larger;
+    background-color: blue;
+}
+
+.content:hover {
+    background-color: purple;
+    font-size: large;
+    font-style: italic;
+}
+
+.ben:hover {
+    font-size: large;
+    background-color: blueviolet;
+}
+
+.footer:hover {
+    height: 25%;
+    color: white;
+    background-color: brown;
+}
+
+.footercont1 {
+    width: 50%;
+    display: none;
+    text-align: center;
+}
+
+.footercont2 {
+    width: 25%;
+    display: none;
+    text-align: left;
+}
+
+.footercont2 .ol {
+    width: 25%;
+    display: none;
+    list-style-type: none;
+}
+
+.footercont3 {
+    width: 20%;
+    display: none;
+    text-align: center;
+    font-size: small;
+}
+
+.footercont4 {
+    width: 10%;
+    display: none;
+    align-items: center;
+}
+
+.footercont4 .a {
+    color: white;
+}
+
+.footer:hover .footercont1 {
+    display: initial;
+}
+
+.footer:hover .footercont2 {
+    display: initial;
+}
+
+.footer:hover .footercont3 {
+    display: initial;
+}
+
+.footer:hover .footercont4 {
+    display: initial;
+}
